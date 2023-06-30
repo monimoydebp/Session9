@@ -15,7 +15,7 @@ Session 9
 8.	Achieve 85% accuracy or more 
 
 # Experiments Performed 
-We performed many experiments on 
+I performed many experiments on 
 
 •	Model building 
 
@@ -50,13 +50,13 @@ I have got Train accuracy: 81% validation accuracy:87.89% under 30 epochs
 
 **Analysis:**
 
-This model has used a lot of parameters and could able to reach the accuracy over 87%. However, it’s computationally expensive. We need to reduce the number of parameters used in this model and choose Strides of 2 instead of maxpooling to reduce the number of channels 
+This model has used a lot of parameters and could able to reach the accuracy over 87%. However, it’s computationally expensive. I need to reduce the number of parameters used in this model and choose Strides of 2 instead of maxpooling to reduce the number of channels 
 
 **Experiment-2**
 
 **Model Structure**
 
-•	We used Stride of 2 instead of Maxpooling to reduce the number of channels 
+•	I used Stride of 2 instead of Maxpooling to reduce the number of channels 
 
 **Result:**
 
@@ -64,7 +64,7 @@ I have got Train accuracy: 78-79% validation accuracy: 85.47% under 50 epochs
 
 **Analysis:**
 
-This model has used a lot of parameters and could able to reach the accuracy over 85%. However, it’s computationally expensive. We need to reduce the number of parameters used in this model
+This model has used a lot of parameters and could able to reach the accuracy over 85%. However, it’s computationally expensive. I need to reduce the number of parameters used in this model
 
 **Experiment-3**
 
@@ -78,7 +78,7 @@ I have got Train accuracy: 80-82% validation accuracy:84.96% under 100 epochs
 
 **Analysis:**
 
-This model could not rich over 85% even after running for 100 epochs. We could have run the model for multiple times to achieve that due to randomization of the input weights but that’s not a consistent model. Hence, we need to improve further 
+This model could not rich over 85% even after running for 100 epochs. I could have run the model for multiple times to achieve that due to randomization of the input weights but that’s not a consistent model. Hence, I need to improve further 
 
 **Experiment-4**
 
@@ -92,7 +92,7 @@ I have got Train accuracy: 79% validation accuracy: 85.63% under 100 epochs
 
 **Analysis:**
 
-We achieved over 85% accuracy finally. However, we can still improve the model performance by reducing the number of parameters. Let’s try to keep it under 0.1m and see if we can achieve 85% accuracy.
+I achieved over 85% accuracy finally. However, I can still improve the model performance by reducing the number of parameters. Let’s try to keep it under 0.1m and see if we can achieve 85% accuracy.
 
  
 
